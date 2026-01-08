@@ -54,6 +54,8 @@ description: |-
 - Add `topology_label` attribute to `sdwan_configuration_group`
 - Fix problem where `sdwan_activate_centralized_policy` fails to update when Controllers (vSmarts) are using CLI device template
 - Fix problem where `sdwan_configuration_group` resource might fail to deploy configuration when CLI Add-on variable value is an integer value, [link](https://github.com/CiscoDevNet/terraform-provider-sdwan/issues/559)
+- BREAKING CHANGE: Bump the minimum supported version of `sdwan_configuration_group` to `20.15.0`
+- BREAKING CHANGE: Bump the minimum supported version of `sdwan_policy_group` to `20.15.0`
 
 ## 0.8.1
 
